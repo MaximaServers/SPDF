@@ -7,3 +7,4 @@ Basado en las librerias:
   - xhtml2pdf
   - pdftotext
   
+Commonly used for Flask Apps.
