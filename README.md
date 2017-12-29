@@ -34,5 +34,8 @@ Usado para aplicaciones Flask.
 >>> <PyPDF2.pdf.PdfFileReader object at 0x108792cf8>
 ```
 
+### Excepciones
+En el momento que haya alguna falla derivada de los procedimientos en SPDF, se lanza SPDF_R como atrapador de excepciones.
+
 ### Documentación completa en:
 ##### http://spdf.mipropia.com/
