@@ -7,7 +7,7 @@ Basado en las librerias:
   - xhtml2pdf
   - pdftotext
   
-Commonly used for Flask Apps.
+Usado para aplicaciones Flask.
 
 ## Examples
 
@@ -31,3 +31,6 @@ Commonly used for Flask Apps.
 >>> _.img_to_pdf('/path/to/valid/image.jpg')
 >>> <PyPDF2.pdf.PdfFileReader object at 0x108792cf8>
 ```
+
+### Documentación completa en:
+##### http://spdf.mipropia.com/
