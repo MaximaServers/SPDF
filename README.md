@@ -34,6 +34,17 @@ Usado para aplicaciones Flask.
 >>> <PyPDF2.pdf.PdfFileReader object at 0x108792cf8>
 ```
 
+### Merge PDF to other PDF
+```
+>>> from spdf import Merge
+>>> _ = Merge()
+>>> _
+>>> <spdf.Merge object at 0x1028b74a8>
+>>> _.prepare_one('path/to/valid/pdf.pdf')
+>>> _.to_merge_to('newfile.pdf')
+>>> "newfile.pdf"
+```
+
 ### Excepciones
 En el momento que haya alguna falla derivada de los procedimientos en SPDF, se lanza SPDF_R como atrapador de excepciones.
 
