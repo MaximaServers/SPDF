@@ -1,4 +1,6 @@
 # SPDF
+###### Versión 1.0 - Beta - En estado de pruebas
+
 Lectura, Extracción, Unión y Creación de PDF basado en librerias ya existentes de Python
 
 Basado en las librerias:
