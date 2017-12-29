@@ -15,7 +15,7 @@ Usado para aplicaciones Flask.
 
 ### Extract text from PDF:
 
-```python
+```
 >>> from spdf import Extract
 >>> _ = Extract('/path/to/valid/pdf.pdf')
 >>> _
@@ -25,7 +25,7 @@ Usado para aplicaciones Flask.
 ```
 
 ### Create PDF from PNG or JPEG image:
-```python
+```
 >>> from spdf import SPDF
 >>> _ = SPDF()
 >>> _
